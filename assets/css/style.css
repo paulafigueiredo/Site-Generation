@@ -1,0 +1,244 @@
+/*Config da body*/
+
+body {
+    font-size: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eeee;
+ }
+
+.text-center{
+   text-align: center;
+}
+
+.p-30{
+   padding: 30px;
+}
+
+.t-20{
+    color: #9d8c09;
+    border-color: black;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    margin-top: 20px;
+}
+
+hr{
+   margin-top: 50px;
+}
+
+h1, h2 {
+   margin-top: 90px;
+}
+
+ /*Config  menu*/
+ nav {
+    width: 100%;
+    background-color:#0074b9;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+ }
+
+ nav ul{
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+    list-style: none;
+ }
+
+ nav a {
+    padding: 20px 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5); /*sombra no conteudo do menu*/
+    font-size: 14pt;
+
+ }
+ 
+ nav a:hover{
+    color: black;
+ }
+
+ #logo{
+   width: 150px;
+   height: 40px;
+   margin-right: 200px;
+ }
+
+ /*INICIANDO CONFIGURAÇAO BOTAO*/
+#button{ 
+  padding: 10px 10px; /*tamanho do botao*/
+  margin-right: 50px;
+  color: black; /*Cor da letra do botao*/
+  background-color: #eeee; /*cor de fundo do botao*/
+  border: 0;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5);/*colocando sombra na letra*/
+  border-radius: 0.5em;
+  box-shadow: 3px 3px 0 rgba(0,0,0,0.5); /*Colocando sombra no botao inscrever */
+  transition: box-shadow 0.3s ease, transform 0.3s ease ;
+  /*fazendo a transformaçao acontecer suavemente*/
+}
+
+/*fazendo efeito de click*/
+#button:active{ 
+  box-shadow: 0 0 0 0  rgba(0,0,0,0.5), inset 3px 3px 3px rgba(0,0,0,0.5) ; /*Tirando a sombra do externa e adcionando uma interna*/
+  transform: translate(3px 3px); /*fazendo a transformaçao ao clicar*/
+}
+/*FIM BOTAO*/
+
+ /*Sobre  Gen*/
+ #sobreGen{
+   margin-right: 100px;
+   margin-left:100px;
+}
+#container-sobreGen{
+   
+    padding: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 15px;
+}
+
+#texto-sobreGen{
+   text-align: justify;
+   margin-right: 30px;
+}
+
+#videoGen{
+   margin-left: 10px;
+}
+
+#container-Gen{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+}
+#txt2{
+   margin-top: -200px;
+   margin-left:500px;
+   margin-right: 100px;
+   text-align: justify;
+}
+
+#fotoGen{
+   margin-left: 100px;
+
+}
+#linha{
+    background-color: black;
+    width: 100%;
+    height: 2px;
+}
+
+
+/*Config Curso*/
+
+#container-sobreCurso{
+    background-color: d45f68;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+}
+
+#text-sobreCurso{
+   margin-left: 100px;
+   margin-right: 100px;
+   text-align: justify;
+}
+#img-react{
+   width: 350px;
+   height: 300px;
+   margin-left: 50px;
+}
+
+/*Config Curriculo*/
+
+#container-curriculo{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   
+}
+
+#container-curriculo div{
+   border-style: solid;
+   border-color: rgb(19, 17, 17);
+   box-shadow: 3px 3px 0 rgba(0,0,0,0.5);
+   background-color: #d45f68;
+   padding: 50px;
+   border-radius: 9px;
+
+}
+
+#container-curriculo ul{
+   list-style: none;
+   padding: 0;
+}
+
+/*Configurando MERCADO DE TRABALHO*/
+#mc-trabalho p{
+   text-align: justify;
+   margin-left: 200px;
+   margin-right: 200px;
+}
+
+/*Config inscrever*/
+#inscrever div.linha{
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+}
+
+#inscrever div.linha2{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-top: 10px;
+}
+
+#inscrever {
+   margin-right: 400px;
+   margin-left: 470px;
+   margin-bottom: 50px;
+}
+
+.cnf-linha{
+   width: 400px;
+}
+
+.cnf-linha1{
+   padding-left: 20px;
+}
+
+#inscrever div.linha2{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-top: 10px;
+}
+
+/*Configurando o FOOTER*/
+footer{
+   background-color: #db6247 ;
+   margin-top: -50px;
+}
+
+.tm-icone{
+   width: 40px;
+   height: 40px;
+   text-align: center;
+}
+
+#container-footer{
+   display: flex;
+   justify-content: center;
+}
+.p-0{
+   margin: 0;
+}
